@@ -1,6 +1,6 @@
-@use '../partials/variables' as *;
+@use './partials/variables' as *;
 
-$fa-font-path: "../fonts/webfonts" !default;
+$fa-font-path: "../webfonts" !default;
 
 @import "~@fortawesome/fontawesome-free/scss/fontawesome";
 @import "~@fortawesome/fontawesome-free/scss/regular";
@@ -8,3 +8,16 @@ $fa-font-path: "../fonts/webfonts" !default;
 @import "~@fortawesome/fontawesome-free/scss/brands";
 
 @import '~bootstrap/scss/bootstrap';
+
+
+* {
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
