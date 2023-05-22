@@ -2,6 +2,8 @@
 
 @section('content')
     @include('partials.jumbotron')
-    @include('partials.main')
+    <div class="main-box">
+        @include('partials.main')
+    </div>
     @include('partials.mainNav')
 @endsection
