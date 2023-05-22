@@ -2,7 +2,7 @@
     <span class="text-uppercase fw-bold">current series</span>
     <div class="btn-container d-flex flex-column justify-content-center align-items-center w-100">
 
-        <div class="row my-2">
+        <div class="row my-5">
             @foreach ($products as $product)
                 @include('partials.card')
             @endforeach
